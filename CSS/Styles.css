@@ -281,7 +281,7 @@ a {
   color: #33FFBD;
 }
 
-@media (min-width: 425px) {
+@media (max-width: 425px) {
   .Catchy-Phrase{
     top: 300px;
   }
