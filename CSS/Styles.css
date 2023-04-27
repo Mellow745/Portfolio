@@ -280,3 +280,12 @@ a {
 .fa:hover {
   color: #33FFBD;
 }
+
+@media (min-width: 425px) {
+  .Catchy-Phrase{
+    top: 300px;
+  }
+  .Projects-Img{
+    width: 340px;
+  }
+}
