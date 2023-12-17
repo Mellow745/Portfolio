@@ -218,6 +218,31 @@ h2 {
   opacity: 1;
 }
 
+.wrap3 {
+  position: relative;
+  display: inline-block;
+}
+
+.cap3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.wrap3:hover .cap3 {
+  visibility: visible;
+  opacity: 1;
+}
+
 .fa-github, .fa-linkedin-square {
   padding: 10px;
   font-size: 2em;
